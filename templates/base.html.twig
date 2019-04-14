@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+        {% block body %}
+
+        <a href="https://www.linkedin.com/oauth/v2/authorization?client_id=&redirect_uri=http://127.0.0.1:8000/api&response_type=code&scope=r_liteprofile%20r_emailaddress%20w_member_social">login via Linkedin</a>
+
+
+        {% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
